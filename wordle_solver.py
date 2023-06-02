@@ -11,3 +11,19 @@ def wordle_solver():
         if feedback == "ggggg":
             print("Well Done! Guess",guesses+1)
             break
+            
+    mytuple = tuple(guess_list)
+        for letter in mytuple:
+            for i in range(5):
+                if feedback[i] == "w" and guess[i] in letter:
+                    guess_list.remove(letter)
+                    break
+                elif feedback[i] == "g" and guess[i] != letter[i]:
+                    guess_list.remove(letter)
+                    break
+                elif feedback[i] == "y" and guess[i] not in letter:
+                    guess_list.remove(letter)
+                    break
+                elif feedback[i] == "y" and guess[i] == letter[i]:
+                    guess_list.remove(letter)
+                    break

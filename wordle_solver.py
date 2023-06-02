@@ -38,3 +38,11 @@ def wordle_solver():
                 counter = 0
         print("\n")
         print("-" * 59)
+        
+def main():
+    filename = 'wordlist.txt'
+    get_word(filename)
+    wordle_solver()
+
+if __name__ == "__main__":
+    main()

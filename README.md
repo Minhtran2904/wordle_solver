@@ -13,4 +13,5 @@ Example: From [website](https://www.nytimes.com/games/wordle/index.html)
 
 Your input will be wywgw into the program, and program will return suggestions (after eliminating words in the background)
 
+![image](https://github.com/Minhtran2904/wordle_solver/assets/97359403/754a7a84-ec1e-4fc1-aa78-db0faf77d0ba)
 

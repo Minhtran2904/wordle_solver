@@ -27,3 +27,14 @@ def wordle_solver():
                 elif feedback[i] == "y" and guess[i] == letter[i]:
                     guess_list.remove(letter)
                     break
+            counter = 0
+        print("Possible words to guess next:\n")
+        print("-" * 59)
+        for word in guess_list:
+            print(word,end=" ")
+            counter+=1
+            if counter == 10:
+                print("")
+                counter = 0
+        print("\n")
+        print("-" * 59)

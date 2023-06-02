@@ -11,7 +11,7 @@ Example: From [website](https://www.nytimes.com/games/wordle/index.html)
 
 ![image](https://github.com/Minhtran2904/wordle_solver/assets/97359403/b66368a1-c497-4066-a90c-04b00db56ff5)
 
-Your input will be wywgw into the program, and program will return suggestions (after eliminating words in the background)
+Your input will be "wywgw" into the program, and program will return suggestions (after eliminating words in the background)
 
 ![image](https://github.com/Minhtran2904/wordle_solver/assets/97359403/754a7a84-ec1e-4fc1-aa78-db0faf77d0ba)
 

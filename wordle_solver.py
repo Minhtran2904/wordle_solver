@@ -9,7 +9,6 @@ def wordle_solver():
         print("g - green, y - yellow, w - wrong / grey")
         feedback = input("Feedback: ").lower()
         if feedback == "ggggg":
-            print("Well Done! Guess",guesses+1)
             break
             
     mytuple = tuple(guess_list)

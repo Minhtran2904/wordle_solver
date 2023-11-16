@@ -7,6 +7,9 @@ Introduction of how the solver works:
 3. program will return list of possible words left
 4. pick one word from the list and repeat from step 1.
 
+With all that said, I suppose this is more of a wordle suggester, than that of a solver.
+Hopefully, I'll learn enough to write one that actually solves, and it varies through the day.
+
 Example: Your guess is "email" from [website](https://www.nytimes.com/games/wordle/index.html)
 
 ![image](https://github.com/Minhtran2904/wordle_solver/assets/97359403/b66368a1-c497-4066-a90c-04b00db56ff5)

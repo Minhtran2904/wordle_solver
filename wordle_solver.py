@@ -38,8 +38,7 @@ def wordle_solver():
         print("\n")
         print("-" * 59)
 
-for word_of_the_day in range(6):
-    guess = input()
+
         
 def main():
     filename = 'wordlist.txt'
